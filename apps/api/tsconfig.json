@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["ES6"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@shared/*": ["../../libs/shared/src/*"]
+    }
+  },
+  "include": ["src", "../../libs/shared/src"],
+  "exclude": ["node_modules"]
+}
