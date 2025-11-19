@@ -3,3 +3,8 @@ node_modules
 dist
 build
 .env
+
+# Ignore env files
+.env
+*/.env
+apps/api/.env
